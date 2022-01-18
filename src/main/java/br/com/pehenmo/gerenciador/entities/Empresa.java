@@ -8,6 +8,12 @@ public class Empresa {
 	private String nome;
 	private Date dataAbertura = new Date();
 	
+	public Empresa() {}
+	
+	public Empresa(String nome, Date dataAbertura) {
+		this.nome = nome;
+		this.dataAbertura = dataAbertura;
+	}
 	public Date getDataAbertura() {
 		return dataAbertura;
 	}
